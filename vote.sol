@@ -1,4 +1,6 @@
-pragma solidity ^0.5.17;
+//0xe1522696Ecb02Df8054e9439f49Cc0106FE9e0dB
+
+pragma solidity^0.8.1;
 contract Voting {
     mapping (bytes32 => uint256) public votesReceived;
     bytes32[] public candidateList;
